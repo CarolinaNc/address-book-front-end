@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;700;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    color: darkgreen;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+table, th, td {
+    border: 1px solid #63bddb;
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: #f2f8fa;
+    box-shadow: 0px 1px 4px 2px #bbd8e6;
+    text-align: center;
+  }
+
+  form {
+    border: 1px solid #63bddb;
+    margin: 5px 20px 0 0;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f2f8fa;
+    box-shadow: 0px 1px 4px 1px #63bddb;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  button {
+    color: darkgreen;
+    background: #bfe5e3;
+    width: 50%;
+    padding: 5px 0 5px 0;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0px #63bddb;
+  }
+
+  select {
+    color: #8eb1a9;
+    margin-bottom: 15px;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0px #63bddb;
+  }
+
+  form input {
+    color: #8eb1a9;
+    margin-bottom: 15px;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0px #63bddb;
+  }
+
+  form input[type="submit" i] {
+    color: darkgreen;
+    background: #bfe5e3;
+    width: 100px;
+    padding: 5px;
+    
+  }
+/* How to remove focus border (outline) around text/input boxes */
+  *:focus {
+    outline: none;
+}
+
+.main-block {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.search-block {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    background: #bfe5e3;
+    align-items: end;
+    border-radius: 4px;
+    /* background-color: #f2f8fa; */
+    box-shadow: 0px 1px 4px 2px #9bc8c5;
+    margin-bottom: 20px;
+}
+
+.search-block div:nth-child(1) {
+    flex: 1;
+}
+
+.search-block div:nth-child(2) {
+    flex: 2;
+}
+
+.search-block div:nth-child(3) {
+    flex: 1;
+    display: flex;
+    align-self: center;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-field input {
+    color: #8eb1a9;
+    margin-bottom: 15px;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0px #63bddb;
+}
+
+.field-form {
+    display: flex;
+    flex-direction: column;
+}
